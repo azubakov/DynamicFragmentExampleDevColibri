@@ -13,6 +13,7 @@ import android.view.ViewGroup;
  */
 public class TwoFragment extends Fragment {
 
+    public static final String TAG = "TwoFragmentTag";
 
     public TwoFragment() {
         // Required empty public constructor

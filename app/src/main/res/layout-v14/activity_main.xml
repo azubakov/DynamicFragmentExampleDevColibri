@@ -44,10 +44,10 @@
 
 
     <Switch
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="New Switch"
-        android:id="@+id/switch1"
+        android:id="@+id/switchBackStack"
         android:layout_below="@+id/linearlayer"/>
 
     <LinearLayout
@@ -55,7 +55,7 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/switch1">
+        android:layout_below="@+id/switchBackStack">
 
     </LinearLayout>
 
