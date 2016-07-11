@@ -34,7 +34,7 @@ public class MainActivity extends FragmentActivity {
         transaction = manager.beginTransaction();
 
 
-        //to do ttt
+        //to do tttt
         switch (view.getId()){
             case R.id.btnAdd:
                 if (manager.findFragmentByTag(OneFragment.TAG) == null)
